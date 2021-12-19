@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-18T12:39:22.368Z",
+        "line": 5,
+        "name": "at Home Page: cannot search for restaurants if none text is entered in the search box. Message with Please enter a location should be displayed.",
+        "description": "",
+        "id": "1.-feature-to-test-empty-search-box-and-message-after-clicking-enter;at-home-page:-cannot-search-for-restaurants-if-none-text-is-entered-in-the-search-box.-message-with-please-enter-a-location-should-be-displayed.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3890219100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Just Eat home page is open",
+            "match": {
+              "location": "StepDefinition.GoogleSearchSteps.Just_Eat_home_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105267800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hits enter with empty search box",
+            "match": {
+              "location": "StepDefinition.GoogleSearchSteps.user_hits_enter_with_empty_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4786174900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "system shaw display Please enter a location",
+            "match": {
+              "location": "StepDefinition.GoogleSearchSteps.system_shaw_display_please_enter_a_location()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "1.\tFeature to test empty search box and message after clicking enter",
+    "description": "",
+    "id": "1.-feature-to-test-empty-search-box-and-message-after-clicking-enter",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/emptySearch.feature",
+    "tags": [
+      {
+        "name": "@Test1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

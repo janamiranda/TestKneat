@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.996">
+    <testcase classname="1.&#9;Feature to test empty search box and message after clicking enter" name="at Home Page: cannot search for restaurants if none text is entered in the search box. Message with Please enter a location should be displayed." time="8.858">
+        <system-out><![CDATA[Given Just Eat home page is open............................................passed
+When user hits enter with empty search box..................................passed
+Then system shaw display Please enter a location............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
